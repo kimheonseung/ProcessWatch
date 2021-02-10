@@ -15,9 +15,9 @@ package com.devheon.processwatch.constant;
  */
 public enum Command {
     WINDOWS_COMMAND_1("cmd"),
-    WINDOWS_COMMAND_2("-c"),
+    WINDOWS_COMMAND_2("/c"),
     UNIX_COMMAND_1("/bin/bash"),
-    UNIX_COMMAND_2("/c");
+    UNIX_COMMAND_2("-c");
 
     private String value;
     private Command(String value) {
